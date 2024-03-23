@@ -1,8 +1,5 @@
-# preset-python-venv
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=686856069&skip_quickstart=true)
-
-Preset for development on Python using venv.
+# manim-movie
+manimでグラフのアニメーションを含む解説動画を作成するためのプロジェクトです。
 
 **included:**
 - Lint and Format
@@ -33,6 +30,7 @@ python -m venv .venv
 Install dependencies:
 
 ```bash
+brew install pango cairo ffmpeg
 pip install -r requirements.txt
 ```
 
@@ -52,7 +50,7 @@ Now you can run script:
 ```bash
 # load environment variables from .env to your shell.
 set -a && source ./.env && set +a
-make run
+manim -p -ql src/main.py WordEmbeddingsExample
 ```
 
 > **Note**
