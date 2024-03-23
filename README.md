@@ -1,6 +1,8 @@
 # manim-movie
 manimでグラフのアニメーションを含む解説動画を作成するためのプロジェクトです。
 
+https://github.com/Yoshida24/manim-movie/assets/21164643/c9042a96-0a34-47c3-9f13-9dd69b66cf8c
+
 **included:**
 - Lint and Format
 - Task runner
